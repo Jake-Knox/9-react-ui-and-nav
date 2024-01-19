@@ -6,6 +6,8 @@ import {
   Link
 } from 'react-router-dom';
 // <Switch> component has been deprecated and replaced with the <Routes> component.
+// <Route exact path="/" component={Home} /> 
+// https://www.w3schools.com/react/react_router.asp
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -18,7 +20,7 @@ import './App.scss';
 function App() {
   return (
     <Router>
-      <div className="app"> {/* Apply the styles to the entire App component */}
+      <div className="App"> {/* Apply the styles to the entire App component */}
         <Navbar />
 
         <hr />

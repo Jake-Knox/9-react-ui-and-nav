@@ -1,11 +1,46 @@
+// get avant garde font
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+// vars
+$text-blue: #C2DCD9;
+$text-white: #fff;
+$text-black: #000;
+
 .App {
   text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
 
-  .nav-bar {
+  h1 {
+    font-size: 2em;
+    color: $text-black;
+
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .navbar {
+    padding: 0;
+    margin: 0;
     list-style: none;
     list-style-type: none;
-    background-color: red;
+
+    li {
+      a {
+        text-decoration: none;
+        color: $text-blue;
+
+        &:hover {
+          text-decoration: underline;
+          color: darken($text-blue, 20%);
+        }
+      }
+    }
+
   }
+
+
 
 
 
