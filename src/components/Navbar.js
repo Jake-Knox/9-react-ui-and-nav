@@ -10,10 +10,10 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav>
+            <img
+                src='./bookends-logo-tr.png'
+            />
             <ul className='navbar'>
-                <li>
-                    <img />
-                </li>
                 <li>
                     <Link to="/">Home</Link>
                 </li>
