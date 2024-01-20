@@ -14,6 +14,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Dashboard from './components/Dashboard';
 import Register from './components/Register';
+import Sports from './components/Sports';
 
 import './App.scss';
 
@@ -31,7 +32,7 @@ function App() {
           <Route exact path="/about" Component={About}></Route>
           <Route exact path="/dashboard" Component={Dashboard}></Route>
           <Route exact path="/register" Component={Register}></Route>
-
+          <Route exact path="/sports" Component={Sports}></Route>
         </Routes>
       </div>
     </Router>

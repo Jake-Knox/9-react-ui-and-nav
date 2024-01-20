@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 // vars
-$text-blue: #C2DCD9;
-$text-white: #fff;
-$text-black: #000;
+$text-blue: #C2DCD9; // penguin modern classics blue
+$text-white: #f9f1f1; // off-white
+$text-black: #000; // black
 
 .App {
   text-align: center;
@@ -12,7 +12,7 @@ $text-black: #000;
 
   h1 {
     font-size: 2em;
-    color: $text-black;
+    // color: $text-black;
 
   }
 
@@ -26,6 +26,8 @@ $text-black: #000;
     align-items: center;
     justify-content: center;
     height: 60px;
+    flex: 1;
+    // border: 1px solid red;
 
     img {
       height: 100%;
@@ -41,7 +43,7 @@ $text-black: #000;
       flex-direction: row;
       align-items: center;
       flex: 1;
-      // background-color: $text-black;
+      // border: 1px solid green;
 
       li {
         margin-right: 10px;
@@ -56,12 +58,35 @@ $text-black: #000;
           }
         }
       }
-
     }
   }
 
+  .Home {
+    color: green;
+
+  }
+
+  .About {
+    color: red;
+
+  }
+
+  .Dashboard {
+    color: orangered;
+
+  }
+
+  .Register {
+    color: orange;
+
+  }
+
+  .Sports {
+
+    color: yellow;
 
 
+  }
 
 
 
