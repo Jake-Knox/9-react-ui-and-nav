@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const TabSelector = ({ onSelect }) => {
-    const [selected, setSelected] = useState('');
+    const [selected, setSelected] = useState('Stats');
 
     const handleSelect = (sport) => {
         setSelected(sport);

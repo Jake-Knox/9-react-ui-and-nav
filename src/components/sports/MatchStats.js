@@ -9,7 +9,7 @@ import Lineups from './Lineups';
 
 const MatchStats = ({ team1, team2 }) => {
 
-    const [selected, setSelected] = useState('');
+    const [selected, setSelected] = useState('Stats');
 
     const handleSelect = (sport) => {
         setSelected(sport);
