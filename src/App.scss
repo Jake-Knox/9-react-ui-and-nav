@@ -9,6 +9,14 @@ $text-black: #000; // black
 .App {
   text-align: center;
   font-family: 'Didact Gothic', sans-serif;
+  margin: 0 auto;
+
+  max-width: 768px;
+  min-width: 400px;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
 
   h1 {
     font-size: 2em;
